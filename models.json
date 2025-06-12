@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Linear Regression",
+    "filename": "01_linear_regression.py",
+    "description": "Fits a linear regression model (y = a + bx) to user-selected columns.",
+    "required_columns": ["feature1", "feature2", "target"],
+    "input_format": "CSV"
+  },
+  {
+    "name": "Random Forest Classifier",
+    "filename": "02_random_forest_classifier.py",
+    "description": "Classifies a label using Random Forest on user-selected features.",
+    "required_columns": ["f1", "f2", "label"],
+    "input_format": "CSV"
+  }
+]
