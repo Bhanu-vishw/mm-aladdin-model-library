@@ -2,7 +2,7 @@
   {
     "name": "Linear Regression",
     "filename": "01_linear_regression.py",
-    "description": "Fits a linear regression model (y = a + bx) to user-selected columns. Fits a linear regression model (y = a + bx) to user-selected columns. Fits a linear regression model (y = a + bx) to user-selected columns.",
+    "description": "Fits a linear regression model (y = a + bx) to user-selected columns.",
     "required_columns": ["feature1", "feature2", "target"],
     "category": "Tabular",
     "tags": ["regression", "linear", "supervised"],
@@ -10,5 +10,17 @@
     "downloads": 0,
     "rating": 0.0,
     "rating_count": 0
-  }
+  },
+  {
+  "name": "Monte Carlo Asset Pricing",
+  "filename": "02_monte_carlo_asset_pricing.py",
+  "description": "Simulates asset price paths using Monte Carlo methods for GBM and estimates final expected price.",
+  "required_columns": ["S0", "mu", "sigma", "T", "N", "M"],
+  "category": "Tabular",
+  "tags": ["monte carlo", "simulation", "asset pricing", "finance"],
+  "input_format": "CSV",
+  "downloads": 0,
+  "rating": 0.0,
+  "rating_count": 0
+}
 ]
