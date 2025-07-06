@@ -16,7 +16,7 @@ input_csv = sys.argv[1]
 output_file = sys.argv[2]
 
 df = pd.read_csv(input_csv)
-X = df[["feature1", "feature2"]]
+X = df["feature1"]
 y = df["target"]
 
 model = LinearRegression()
