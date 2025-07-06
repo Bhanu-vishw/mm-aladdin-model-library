@@ -6,6 +6,10 @@
     "required_columns": ["feature1", "feature2", "target"],
     "category": "Tabular",
     "tags": ["regression", "linear", "supervised"],
-    "input_format": "CSV"
+    "input_format": "CSV",
+    "downloads": 0,
+    "ratings": [],
+    "rating": 0.0,
+    "rating_count": 0
   }
 ]
