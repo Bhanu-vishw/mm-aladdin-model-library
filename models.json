@@ -3,7 +3,7 @@
     "name": "Linear Regression",
     "filename": "01_linear_regression.py",
     "description": "Fits a linear regression model (y = a + bx) to user-selected columns.",
-    "required_columns": ["feature1", "feature2", "target"],  // These are names you'll prompt the user to map!
+    "required_columns": ["feature1", "feature2", "target"],
     "category": "Tabular",
     "tags": ["regression", "linear", "supervised"],
     "input_format": "CSV"
